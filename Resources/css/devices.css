@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+
+    body {
+        background-color: rgb(209, 159, 159);
+        padding-left: 50px;
+        padding-right: 50px;
+        font-family: Nunito,Tahoma,Geneva, sans-serif;
+    }
+}
+
+}
+.router {
+    background-color: rgb(241, 231, 231);
+    padding: 0 10px;
+
+}
+
+img.router img{
+    display: inline-flex;
+    float: right;
+
+}
+
+.specs {
+    display: flex;
+}
+
+@media only screen and (max-width: 548px) {
+    img{
+        display: flex;
+        overflow: hidden;
+        width: 350px;
+        height: auto;
+}
