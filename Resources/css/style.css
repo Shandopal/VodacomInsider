@@ -96,3 +96,8 @@ footer {
         display: inline;
     }
 }
+
+@media only screen and (max-width: 540px) {
+    body {
+        padding: o;
+    }
