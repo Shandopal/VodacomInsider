@@ -4,14 +4,12 @@
 
 body {
     background-color: rgb(241, 238, 238);
-    padding-left: 50px;
-    padding-right: 50px;
     font-family: Nunito,Tahoma,Geneva, sans-serif;
 }
 /* Header section */
 .header {
     background-color: rgb(20, 20, 17);
-    width: 100%;
+    width:100%
     height: auto;
     display: block;
     border-radius: 15px;
@@ -98,6 +96,6 @@ footer {
 }
 
 @media only screen and (max-width: 540px) {
-    body {
-        padding: o;
+    .header {
+margin: 0 auto;
     }
